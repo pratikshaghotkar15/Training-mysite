@@ -1,0 +1,17 @@
+<div class="wrapper">
+<div class="menu">
+<ul>
+<li><a routerLink="home">Home</a></li>
+<li><a routerLink="aboutus">aboutus</a></li>
+<li><a routerLink="login">login</a></li>
+</ul>
+</div>
+<div>
+date of birthday {{birthday | date}}<br>
+date of birthday {{birthday | date:"mm/dd/yy"}}<br>
+date of birthday {{birthday | date:"full"}}<br>
+
+</div>
+<div class="routeroutlet"></div>
+<router-outlet></router-outlet>
+</div>

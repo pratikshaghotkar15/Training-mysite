@@ -1,0 +1,11 @@
+<div class="wrapper">
+<div class="menu">
+<ul>
+<li><a routerLink="home">Home</a></li>
+<li><a routerLink="aboutus">aboutus</a></li>
+<li><a routerLink="login">login</a></li>
+</ul>
+</div>
+<div class="routeroutlet"></div>
+<router-outlet></router-outlet>
+</div>

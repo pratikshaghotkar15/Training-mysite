@@ -1,0 +1,6 @@
+<div class="aboutus">
+<p>aboutus works!</p>
+<ul *ngFor="let datavar of datalist">
+<li>{{datavar.sno}}||{{datavar.name}}||{{datavar.address}}</li>
+</ul>
+</div>
